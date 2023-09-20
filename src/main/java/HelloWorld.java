@@ -3,5 +3,6 @@ public class HelloWorld {
     public static void main(String[] args) {
         System.out.println("Hello, World!");
         System.out.println("This Is DevOps Practice Project");
+        System.out.println("For Devops Commands For Git and Docker");
     }
 }
