@@ -1,2 +1,5 @@
 FROM ubuntu
-RUN echo "First Devops Project Practice">/tmp/testfile
+WORKDIR /temp
+RUN echo "Jais Shree Ram">/temp/testfile
+ENV myname arnavjain
+COPY testfile1 /temp
